@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>جامعة.tmac</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('robot-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+    .bg-overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-sky-700 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold flex items-center gap-2">
+        🤖 جامعة.tmac
+      </h1>
+      <nav class="space-x-4 rtl:space-x-reverse">
+        <a href="#home" class="hover:underline">الرئيسية</a>
+        <a href="#about" class="hover:underline">حول</a>
+        <a href="course.html" target="_blank" class="hover:underline">الدورات</a>
+        <a href="#contact" class="hover:underline">اتصل بنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Hero Section -->
+  <section id="home" class="text-center py-20 bg-overlay">
+    <h2 class="text-4xl font-bold mb-4 text-sky-900">إتقان فن الخياطة والتصميم</h2>
+    <p class="text-lg mb-6">التدريب والتعليم في إنشاء القوالب وآلات الخياطة</p>
+    <a href="course.html" target="_blank" class="bg-sky-600 text-white px-6 py-3 rounded hover:bg-sky-700">تصفح الدورات</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto py-12 text-center bg-overlay rounded-xl my-6">
+    <h3 class="text-2xl font-bold mb-4 text-sky-800">معلومات عنا</h3>
+    <p class="text-sky-900">نحن نقدم تدريباً احترافياً في تصميم الأنماط واستخدام آلات الخياطة الرقمية الحديثة.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-overlay py-12 text-center rounded-xl my-6 mx-4">
+    <h3 class="text-2xl font-bold mb-4 text-sky-800">تواصل معنا</h3>
+    <p class="mb-2">📞 الهاتف: 06 09 09 59 31</p>
+    <p class="mb-2">📷 إنستغرام: <a href="https://instagram.com/universitytmac" target="_blank" class="text-sky-700 hover:underline">universitytmac</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-sky-700 text-white p-6 text-center">
+    <p>© 2025 جامعة.tmac - جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
